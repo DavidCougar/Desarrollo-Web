@@ -3,7 +3,7 @@
 
 	$idpersona=$_POST['valor'];
 
-	$_SESSION['consulta']=$idper;
+	$_SESSION['consulta']=$idpersona;
 
 	echo $idpersona;
 
